@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Wael-Malaria'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D03B21F3E5D044B185CDF10DDE4F4E4F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_88DF002AD2B44BC4AF93DBFF1C2003D0 }}
