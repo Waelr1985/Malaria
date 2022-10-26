@@ -24,7 +24,7 @@ from werkzeug.utils import secure_filename
 #from gevent.pywsgi import WSGIServer
 
 # Define a flask app
-app = Flask(__name__)
+app = Flask(__name__,template_folder='templates')
 
 # Model saved with Keras model.save()
 MODEL_PATH ='model_vgg19.h5'
